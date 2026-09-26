@@ -41,9 +41,9 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`Adm_username`, `Adm_email`, `Adm_pass`, `Adm_name`, `Book_code`) VALUES
 ('zariffDanial01', 'zariff00danial@gmail', 'zariff10', 'Zariff Danial', 10001),
-('syafiqah12', 'syafiqahs_@gmail.com', 'syaff123', 'Syafiqah Syazwani', 10002),
+('syafiqah12', 'user1@example.com', 'syaff123', 'Syafiqah Syazwani', 10002),
 ('zariffDanial01', 'zariff00danial@gmail', 'zariff10', 'Zariff Danial', 10003),
-('syafiqah12', 'syafiqahs_@gmail.com', 'syaff123', 'Syafiqah Syazwani', 10004),
+('syafiqah12', 'user1@example.com', 'syaff123', 'Syafiqah Syazwani', 10004),
 ('zariffDanial01', 'zariff00danial@gmail', 'zariff10', 'Zariff Danial', 10005);
 
 -- --------------------------------------------------------
@@ -115,11 +115,11 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`Cust_username`, `Cust_pass`, `Cust_email`, `Cust_phonenum`) VALUES
-('anyaforger12', 'peanut007', 'anyaforger17@gmail.com', '0124532367'),
-('ijan0203', 'jaan0803', 'nor.hifzhan@gmail.com', '0134528923'),
-('miee1101', 'denver05', 'hilmieee1701@gmail.com', '0193703902'),
-('saeho1902', 'berlin06', 'saehoo_park@gmail.com', '0189076546'),
-('zaki_1308', 'Zak0203', 'muhd_zaki@gmail.com', '0136783498');
+('anyaforger12', 'peanut007', 'user2@example.com', '0120000001'),
+('ijan0203', 'jaan0803', 'user3@example.com', '0120000002'),
+('miee1101', 'denver05', 'user4@example.com', '0120000003'),
+('saeho1902', 'berlin06', 'user5@example.com', '0120000004'),
+('zaki_1308', 'Zak0203', 'user6@example.com', '0120000005');
 
 -- --------------------------------------------------------
 
@@ -187,11 +187,11 @@ CREATE TABLE `pickup` (
 --
 
 INSERT INTO `pickup` (`Cust_username`, `Cust_phonenum`, `Date_pickup`) VALUES
-('anyaforger12', '0124532367', '2022-08-11'),
-('miee1101', '0193703902', '2022-08-13'),
-('saeho1902', '0189076546', '2022-07-29'),
-('zaki_1308', '0136783498', '2022-09-25'),
-('ijan0203', '0134528923', '2022-08-16');
+('anyaforger12', '0120000001', '2022-08-11'),
+('miee1101', '0120000003', '2022-08-13'),
+('saeho1902', '0120000004', '2022-07-29'),
+('zaki_1308', '0120000005', '2022-09-25'),
+('ijan0203', '0120000002', '2022-08-16');
 
 -- --------------------------------------------------------
 
@@ -240,9 +240,9 @@ CREATE TABLE `seller` (
 --
 
 INSERT INTO `seller` (`Seller_ID`, `Seller_email`, `Seller_pass`, `Seller_name`, `Book_code`) VALUES
-(1, 'isellbook@gmail.com', 'isellbook123', 'Mr Chua', 10001),
-(2, 'isellbook@gmail.com', 'isellbook123', 'Mr Chua', 10003),
-(3, 'isellbook@gmail.com', 'isellbook123', 'Mr Chua', 10005),
+(1, 'user7@example.com', 'isellbook123', 'Mr Chua', 10001),
+(2, 'user7@example.com', 'isellbook123', 'Mr Chua', 10003),
+(3, 'user7@example.com', 'isellbook123', 'Mr Chua', 10005),
 (4, 'studybook02@gmail.co', 'study123', 'Mr Ho', 10002),
 (5, 'studybook02@gmail.co', 'study123', 'Mr Ho', 10004);
 
